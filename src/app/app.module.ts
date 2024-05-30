@@ -22,6 +22,10 @@ import { OrganizacionTextoComponent } from './organizacion-texto/organizacion-te
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
 
+import { ImageModule } from 'primeng/image';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,8 +48,9 @@ import { ErrorComponent } from './error/error.component';
     InputTextModule,
     BadgeModule,
     AvatarModule,
-    RippleModule
-
+    RippleModule,
+    ImageModule
+    
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
